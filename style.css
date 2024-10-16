@@ -1,0 +1,36 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-areas: auto auto; */
+    justify-content: center;
+    width: 80%;
+    column-gap: 5px;
+    background-color: bisque;
+}
+
+.conteiner1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 228px 228px;
+    gap: 5px;
+    width: 80%;
+    height: 80vh;
+   /*  background-color: rgb(236, 217, 191); */
+}
+
+.conteiner2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    gap: 5px;
+
+}
+
+.cube{
+  
+    background-color: darkblue;
+    color: white;
+    text-align: end;
+    font-size: 3rem;
+
+}
